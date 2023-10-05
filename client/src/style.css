@@ -1,0 +1,113 @@
+
+.bookContainer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 150px;
+}
+
+.books{
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 2px solid lightblue;
+    padding: 25px;
+    border-radius: 5px;
+
+}
+
+img{
+    width: 100px;
+    height: 150px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+button{
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.update{
+    color: rgba(63, 175, 63, 0.637);
+    font-weight: bold;
+}
+
+.delete{
+    color: rgba(224, 62, 62, 0.658);
+    font-weight: bold;
+}
+
+.add{
+    padding: 10px 50px;
+    color: cadetblue;
+}
+
+.link{
+    color: rgba(63, 175, 63, 0.637);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.add:hover{
+    font-weight: bolder;
+}
+
+.formContainer{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+input{
+    padding: 10px 20px;
+}
+
+.addButton,.updateButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 40px;
+    color: cadetblue;
+}
+
+.addButton:hover,.updateButton:hover{
+    font-weight: bolder;
+}
+
+.add.button, .update.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
